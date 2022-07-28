@@ -8,7 +8,14 @@
     <script src="app.js"></script>
 </head>
 <body>
-    <form>
+
+    <div class="top-section">
+        <p class="header">Henrique Lima</p>
+  
+        <p class="comment">Leave your contact information</p>
+      </div>
+  
+     <form>
         <label>First Name :</label>
         <input type="text" id="fName">
         <label>Last Name :</label>
@@ -20,5 +27,35 @@
         <!-- set button onClick method to call function we defined passing input values as parameters -->
         <button type="button" onclick="callAPI(document.getElementById('fName').value,document.getElementById('lName').value,document.getElementById('phone').value,document.getElementById('email').value)">Submit</button>
     </form>
+  
+      <p class="paralign">Social Media</p>
+  
+      <nav>
+        <div style="text-align: center">
+          <a
+            href="https://www.facebook.com/henrique.medeiros.127"
+            target="_blank"
+            class="fa fa-facebook"
+          ></a>
+        </div>
+  
+        <div style="text-align: center">
+          <a
+            href="https://www.linkedin.com/in/henrique-lima-b89b44152/"
+            target="_blank"
+            class="fa fa-linkedin"
+          ></a>
+        </div>
+  
+        <div style="text-align: center">
+          <a
+            href="https://www.instagram.com/neguete10/"
+            target="_blank"
+            class="fa fa-instagram"
+          ></a>
+        </div>
+      </nav>
+
+    
 </body>
 </html>
